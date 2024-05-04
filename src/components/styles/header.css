@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.header .header_logo{
+    margin-left: 30px;
+}
+
+nav{
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul li a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+ul li a:hover{
+    text-decoration: wavy;
+    color: #23be20;
+}
+
+.changer{
+    display: flex;
+    margin-right: 16px;
+}
+
+.menu{
+    cursor: pointer;
+    margin-right: 8px;
+    display: none
+}
+
+.closed .close{
+    display: none;
+}

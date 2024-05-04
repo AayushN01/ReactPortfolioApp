@@ -75,3 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Install Material UI Icons
 ### `npm -i @material-ui/icons`
 
+## Install Bootstrap
+### `npm install bootstrap`
+#### `import 'bootstrap/dist/css/bootstrap.min.css`
+
