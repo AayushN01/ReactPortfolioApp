@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const HeaderComponent = () => {
-    const {active, setActive} = useState(false);
+    const [active, setActive] = useState(false);
     const ShowMenu = () => {
         setActive(!active);
     }
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">React Portfolio App</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <a className="navbar-brand text-white text-uppercase" href="#">Aayush Niraula Portfolio</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onClick={ShowMenu}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                <div className={`collapse navbar-collapse ${active ? 'show' : ''}`} id="navbarNavDropdown">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <Link to={'/'}>Home</Link>

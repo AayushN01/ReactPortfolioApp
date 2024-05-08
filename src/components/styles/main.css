@@ -1,0 +1,17 @@
+.main{
+    padding: 50px 0;
+}
+.aboutImg img{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+.main .about-content{
+    padding: 20px;
+}
+
+.main .contactButton .contactBtn{
+    width: 200px;
+    padding: 10px;
+    background-color: #2e2e2e;
+}

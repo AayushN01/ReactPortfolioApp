@@ -50,3 +50,7 @@ ul li a:hover{
 .closed .close{
     display: none;
 }
+
+.nav-item a{
+    color: #fff;
+}
